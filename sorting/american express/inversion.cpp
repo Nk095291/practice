@@ -39,7 +39,7 @@ void mergesort(vector<int>&ar , int low,int high)
 }
 int main()
 {
-    vector<int>ar={2,5,1,8,6,3,7,6};
+    vector<int>ar={2 5 1 8 6 3 7 6};
     mergesort(ar,0,ar.size()-1);
     cout<<count<<endl;
 }
